@@ -31,7 +31,6 @@ fi
 mkdir -p /data/$FTP_USER/incoming
 chown -R $FTP_USER:ftp /data/$FTP_USER
 
-sed -ie "s/^background.*/background\=NO/" /etc/vsftpd.conf
 cat <<EOF> /etc/vsftpd.conf
 
 background=NO
