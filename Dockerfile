@@ -11,6 +11,8 @@ ENV FTP_PASS changeit
 # locally, you MUST specify a host name which is resolvable over the
 # network
 ENV HOST localhost
+ENV PASV_MIN_PORT 65000
+ENV PASV_MAX_PORT 65100
 
 ADD image/root/ /
 
