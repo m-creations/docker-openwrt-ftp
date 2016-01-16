@@ -13,7 +13,7 @@ RESOLVE_HOSTNAME=YES
 if [[ $HOST =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+ ]] ; then
     RESOLVE_HOSTNAME=NO
 fi
-   
+
 mkdir -m 0700 -p /var/empty
 mkdir -m 0755 -p /var/run
 
@@ -47,8 +47,8 @@ allow_writeable_chroot=yes
 pasv_address=$HOST
 pasv_addr_resolve=$RESOLVE_HOSTNAME
 
-pasv_min_port=65000
-pasv_max_port=65100
+pasv_min_port=$PASV_MIN_PORT
+pasv_max_port=$PASV_MAX_PORT
 pasv_enable=YES
 pasv_promiscuous=NO
 
