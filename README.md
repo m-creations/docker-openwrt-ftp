@@ -45,7 +45,9 @@ Contributors
 
 Many thanks to the following people who contributed to the project:
 
+- Luciano Mammino
 - Arnaud de Mouhy
+- Alexis Tyler
 
 Github Repo
 -----------
