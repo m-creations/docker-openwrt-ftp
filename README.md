@@ -10,7 +10,7 @@ The simplest case is to specify user name and password when starting
 the container:
 
 ```bash
-docker run -p 11021:21 -it --rm -e FTP_USER=scott -e FTP_PASS=tiger -e HOST=publicname.example.com mcreations/openwrt-ftp
+docker run -p 11021:21 -it --rm -e FTP_USER=scott -e FTP_PASS=tiger -e HOST=publicname.example.com mcreations/ftp
 ```
 
 Note that ```HOST``` signifies the name or IP with which the docker
@@ -48,6 +48,7 @@ Many thanks to the following people who contributed to the project:
 - Luciano Mammino
 - Arnaud de Mouhy
 - Alexis Tyler
+- Kern3l
 
 Github Repo
 -----------

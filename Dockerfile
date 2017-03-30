@@ -1,4 +1,4 @@
-## -*- docker-image-name: "mcreations/openwrt-ftp" -*-
+## -*- docker-image-name: "mcreations/ftp" -*-
 
 FROM mcreations/openwrt-x64
 MAINTAINER Kambiz Darabi <darabi@m-creations.net>
